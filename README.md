@@ -1,64 +1,73 @@
-# Build-Real-time-Google-Play-store-data-analytics---python
-# 📊 Google Play Store Data Analytics Dashboard (Real-Time & Conditional)
+# Welcome to your Lovable project
 
-This project is a real-time analytics dashboard built with Python to visualize Google Play Store data. It includes dynamic, filtered charts based on app attributes and restricts visibility of certain graphs based on **Indian Standard Time (IST)**.
+## Project info
 
----
+**URL**: https://lovable.dev/projects/55627770-347e-496c-9526-3363638bd5f7
 
-## 📁 Project Structure
+## How can I edit this code?
 
+There are several ways of editing your application.
 
----
+**Use Lovable**
 
-## 📌 Features
+Simply visit the [Lovable Project](https://lovable.dev/projects/55627770-347e-496c-9526-3363638bd5f7) and start prompting.
 
-### 1. **Scatter Plot for Paid Apps**
-- Visualizes the relationship between **Revenue** and **Installs**.
-- Applies only to **Paid Apps**.
-- Revenue calculated as `Price × Installs`.
-- Colored by app category.
-- Includes a **trendline** to show correlation.
+Changes made via Lovable will be committed automatically to this repo.
 
-### 2. **Grouped Bar Chart for Top Categories**
-- Compares **Average Rating** and **Total Review Count**.
-- Filters:
-  - Rating ≥ 4.0
-  - Size ≥ 10 MB
-  - Last update in **January**
-- Shows data only between **3 PM – 5 PM IST**.
+**Use your preferred IDE**
 
-### 3. **Time Series Line Chart by Category**
-- Shows install trends over time.
-- Filters:
-  - App **name must not** start with **X, Y, Z**.
-  - App **category must start** with **E, C, or B**.
-  - **Reviews > 500**
-  - App **name must not** contain the letter **S**
-- Highlights months with **>20% month-over-month growth**.
-- Category Translations:
-  - "Beauty" → **Hindi**
-  - "Business" → **Tamil**
-  - "Dating" → **German**
-- Visible only from **6 PM – 9 PM IST**.
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
----
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-## 🛠 Tech Stack
+Follow these steps:
 
-- `Python 3.8+`
-- `Pandas`
-- `Matplotlib`
-- `Seaborn`
-- `Plotly`
-- `datetime`, `pytz`
-- `scikit-learn` (for trendline regression)
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
----
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-## 🚀 How to Run
+# Step 3: Install the necessary dependencies.
+npm i
 
-### 1. Clone this repository
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-```bash
-git clone https://github.com/yourusername/google-play-dashboard.git
-cd google-play-dashboard
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/55627770-347e-496c-9526-3363638bd5f7) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
